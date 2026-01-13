@@ -1,0 +1,83 @@
+{
+  "fields": [
+    {
+      "metadata": {},
+      "name": "address",
+      "nullable": true,
+      "type": {
+        "fields": [
+          {
+            "metadata": {},
+            "name": "city",
+            "nullable": true,
+            "type": "string"
+          },
+          {
+            "metadata": {},
+            "name": "state",
+            "nullable": true,
+            "type": "string"
+          },
+          {
+            "metadata": {},
+            "name": "streetAddress",
+            "nullable": true,
+            "type": "string"
+          }
+        ],
+        "type": "struct"
+      }
+    },
+    {
+      "metadata": {},
+      "name": "age",
+      "nullable": true,
+      "type": "integer"
+    },
+    {
+      "metadata": {},
+      "name": "first_Name",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "metadata": {},
+      "name": "gender",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "metadata": {},
+      "name": "last_Name",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "metadata": {},
+      "name": "phone_Numbers",
+      "nullable": true,
+      "type": {
+        "containsNull": true,
+        "elementType": {
+          "fields": [
+            {
+              "metadata": {},
+              "name": "number",
+              "nullable": true,
+              "type": "string"
+            },
+            {
+              "metadata": {},
+              "name": "type",
+              "nullable": true,
+              "type": "string"
+            }
+          ],
+          "type": "struct"
+        },
+        "type": "array"
+      }
+    }
+  ],
+  "type": "struct"
+}

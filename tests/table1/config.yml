@@ -1,0 +1,32 @@
+source:
+  path: "C:\\Users\\shiva\\PySpark_code\\pycharmProject\\oops_with_etl\\input_files\\Reading_all_data.csv"
+  type: "csv"
+  schema: "n"
+  options:
+    multiline: True
+    delimiter: ","
+    header: True
+  exclude_cols: ["created_date","updated_date","hash_key","batch_id"]
+
+target:
+  path: "C:\\Users\\shiva\\PySpark_code\\pycharmProject\\oops_with_etl\\input_files\\Reading_all_data.csv"
+  type: "csv"
+  schema: "n"
+  options:
+    multiline: 'y'
+    delimiter: ","
+    header: True
+  exclude_cols: [ "created_date","updated_date","hash_key","batch_id" ]
+
+validations:
+  count_check:
+    key_columns: ["ID","Fname","Lname"]
+  duplicate_check:
+    key_columns: ["firstName","lastName","phoneNumbers_number","phoneNumbers_type"]
+  null_check:
+    null_columns: ["firstName","lastName","phoneNumbers_number","phoneNumbers_type"]
+  uniqueness_check:
+    unique_columns: ["phoneNumbers_number","phoneNumbers_type"]
+  data_compare_check:
+    key_column: ["firstName","lastName","phoneNumbers_number","phoneNumbers_type"]
+    num_records: 100

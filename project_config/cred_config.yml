@@ -50,6 +50,7 @@ qa:
 #    adls_container_name: "test"
 #    key: "9Gn7n0tlNXAi7cImLo2zM375TWtCeWYFhJa+vcEXz6/MAgJcNTPn9xzC44EiwfFOnYZkQ1IrEajO+AStFp8xDQ=="  # Your Account Key#my adls accout#
 
+
 #  adls:
 #    adls_account_name: "decautoadls"
 #    adls_container_name: "test"

@@ -1,5 +1,5 @@
 source:
-  path: "C:/Users/shiva/PySpark_code/pycharmProject/oops_with_etl/input_files/Reading_all_data.csv"
+  path: "input_files/Reading_all_data.csv"
   type: "csv"
   schema: "n"
   options:
@@ -9,7 +9,7 @@ source:
   exclude_cols: ["created_date","updated_date","hash_key","batch_id"]
 
 target:
-  path: "C:/Users/shiva/PySpark_code/pycharmProject/oops_with_etl/input_files/Reading_all_data.csv"
+  path: "input_files/Reading_all_data.csv"
   type: "csv"
   schema: "n"
   options:

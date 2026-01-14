@@ -41,11 +41,6 @@ qa:
 #    password: "Dharmavaram1@"
 #    driver: "com.microsoft.sqlserver.jdbc.SQLServerDriver"
 
-
-
-
-
-
 prod:
  postgres:
    url: "jdbc:postgresql://localhost:5432/postgres"

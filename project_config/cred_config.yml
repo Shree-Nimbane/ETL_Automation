@@ -1,59 +1,59 @@
-#dev:
-#  postgres:
-#    url: "jdbc:postgresql://localhost:5432/postgres"
-#    user: "postgres"
-#    password: "Iphone9@"
-#    driver: "org.postgresql.Driver"
-#    port: 5432
-#
-#  oracle:
-#    username: "test123"
-#    password: "oracle_password"
-#    connection_string: "jdbc:oracle:thin:@//dev-db-host:1521/ORCL"
-#
+dev:
+ postgres:
+   url: "jdbc:postgresql://localhost:5432/postgres"
+   user: "postgres"
+   password: "Iphone9@"
+   driver: "org.postgresql.Driver"
+   port: 5432
 
-#qa:
-#  postgres:
-#    url: "jdbc:postgresql://localhost:5432/postgres"
-#    user: "postgres"
-#    password: "Iphone9@"
-#    driver: "org.postgresql.Driver"
-#    port: 5432
-#
-#  snowflake:
-#    url: "jdbc:snowflake://JIOHBRN-VO25590.snowflakecomputing.com"
-#    user: "SHREE"
-#    password: "ShivajiShree@99"
-#    database: 'SNOWFLAKE_LEARNING_DB'
-#    schema: 'INFORMATION_SCHEMA'
-#    dbtable: 'APPLICABLE_ROLES'
-#    driver: "net.snowflake.client.jdbc.SnowflakeDriver"
-#
-#  sqlserver:
-#    url: "jdbc:sqlserver://decserver21.database.windows.net:1433;database=decautodb2" #my azure sql server details
+ oracle:
+   username: "test123"
+   password: "oracle_password"
+   connection_string: "jdbc:oracle:thin:@//dev-db-host:1521/ORCL"
+
+
+qa:
+ postgres:
+   url: "jdbc:postgresql://localhost:5432/postgres"
+   user: "postgres"
+   password: "Iphone9@"
+   driver: "org.postgresql.Driver"
+   port: 5432
+
+ snowflake:
+   url: "jdbc:snowflake://JIOHBRN-VO25590.snowflakecomputing.com"
+   user: "SHREE"
+   password: "ShivajiShree@99"
+   database: 'SNOWFLAKE_LEARNING_DB'
+   schema: 'INFORMATION_SCHEMA'
+   dbtable: 'APPLICABLE_ROLES'
+   driver: "net.snowflake.client.jdbc.SnowflakeDriver"
+
+ sqlserver:
+   url: "jdbc:sqlserver://decserver21.database.windows.net:1433;database=decautodb2" #my azure sql server details
+   user: "decadmin"
+   password: "Dharmavaram1@"
+   driver: "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+
+ #sqlserver:
+#    url: "jdbc:sqlserver://decserver.database.windows.net:1433;database=decauto" #Sreenis azure sql server details
 #    user: "decadmin"
 #    password: "Dharmavaram1@"
 #    driver: "com.microsoft.sqlserver.jdbc.SQLServerDriver"
-#
-#  #sqlserver:
-##    url: "jdbc:sqlserver://decserver.database.windows.net:1433;database=decauto" #Sreenis azure sql server details
-##    user: "decadmin"
-##    password: "Dharmavaram1@"
-##    driver: "com.microsoft.sqlserver.jdbc.SQLServerDriver"
-#
-#
 
-#
 
-#
-#prod:
-#  postgres:
-#    url: "jdbc:postgresql://localhost:5432/postgres"
-#    user: "postgres"
-#    password: "Iphone9@"
-#    driver: "org.postgresql.Driver"
-#    port: 5432
-#  oracle:
-#    username: "oracle_user"
-#    password: "oracle_password"
-#    connection_string: "jdbc:oracle:thin:@//dev-db-host:1521/ORCL"
+
+
+
+
+prod:
+ postgres:
+   url: "jdbc:postgresql://localhost:5432/postgres"
+   user: "postgres"
+   password: "Iphone9@"
+   driver: "org.postgresql.Driver"
+   port: 5432
+ oracle:
+   username: "oracle_user"
+   password: "oracle_password"
+   connection_string: "jdbc:oracle:thin:@//dev-db-host:1521/ORCL"

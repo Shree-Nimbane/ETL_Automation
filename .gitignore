@@ -1,0 +1,16 @@
+project_config/cred_config.yml
+.env
+adfs_practice.py
+copy_structure.py
+creating_audit_log.py
+delta_table.py
+first_tryal.py
+main.py
+safe_conf_back_up.py
+scd2_post.py
+scd2_pre.py
+scd2_with_snow.py
+setup.py
+what_folders_adfs.py
+input_files
+jars
